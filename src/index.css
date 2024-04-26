@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
 }
+.borderfoto {
+  flex-shrink: 0;
+  margin: 0px;
+  border: calc(1px + 0.2vw) solid transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.borderfoto-1 {
+  border-radius: 50%;
+}
+@media screen and (min-width: 320px) {
+  .res 
+   {
+     height:100%;
+   }
+  .crd 
+  {
+    height:40%;
+    width:80%;
+  }
+  .bgr 
+   {
+     
+     width:100%;
+   }
+  .gbt{
+     width:100%;
+   }
+  .smo{
+     width:100%;
+     padding:0;
+  }
+  .con{
+     width:70%;
+     font-size:7px;
+  }
+ }
+ @media screen and (min-width: 360px){
+  .con{
+    width:80%;
+    font-size:7px;
+    padding-left:3px;
+ }
+}
+ @media screen and (min-width: 412px){
+  .con{
+    width:70%;
+    font-size:8px;
+    padding-left:5px;
+ }
+
+ }
+ @media screen and (min-width: 780px){
+  .con{
+    width:70%;
+    font-size:15px;
+    padding-left:5px;
+ }
+
+ }
+ @media screen and (min-width: 820px){
+  .con{
+    width:75%;
+    font-size:15px;
+    padding-left:5px;
+ }
+
+ }
