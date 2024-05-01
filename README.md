@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Portfolio
+This is a template for a personalized portfolio, and users can add their own information to each section. 
+Please note that all links need to be updated as well.
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
